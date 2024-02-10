@@ -1,0 +1,17 @@
+[
+    {
+        "substance": "water",
+        "boilingTemperature": 100,
+        "freezingTemperature": 0
+    },
+    {
+        "substance": "oleg",
+        "boilingTemperature": 42,
+        "freezingTemperature": -50
+    },
+    {
+        "substance": "marmalade",
+        "boilingTemperature": 105,
+        "freezingTemperature": 35
+    }
+]
