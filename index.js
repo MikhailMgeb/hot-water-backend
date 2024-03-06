@@ -45,17 +45,17 @@ app.get('/substance/:name', (req, res) => {
         }
 
         if (substanceItem.boilingTemperature <= temperature) {
-            res.json({ 'state': 'gas' });
+            res.json({ state: 'gas' });
             return;
         }
 
         if (substanceItem.boilingTemperature >= temperature && substanceItem.freezingTemperature <= temperature) {
-            res.json({ 'state': 'water' });
+            res.json({ state: 'water' });
             return;
         }
 
         if (substanceItem.freezingTemperature >= temperature) {
-            res.json({ 'state': 'solid state' });
+            res.json({ state: 'solid state' });
             return;
         }
     }
